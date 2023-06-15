@@ -28,7 +28,7 @@ const CreativePlatfromSection = () => {
           value="Search"
         />
       </div>
-      <div className="my-10 font-Inter grid-cols-4 grid justify-center items-center">
+      <div className="my-10 font-Inter grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 grid justify-center items-center">
         <div className="flex justify-center items-center gap-5">
           <img className="w-24" src={creativeone} alt="" />
           <div>
@@ -58,6 +58,7 @@ const CreativePlatfromSection = () => {
           </div>
         </div>
       </div>
+      <hr className="w-4/5 mx-auto border-black" />
     </div>
   );
 };

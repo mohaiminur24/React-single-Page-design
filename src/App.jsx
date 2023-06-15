@@ -1,6 +1,7 @@
 import Header from "./SinglePageLayout/Header";
 import Bannersection from "./SinglePageLayout/Bannersection";
 import CreativePlatfromSection from "./SinglePageLayout/CreativePlatfromSection";
+import AssociateSection from "./SinglePageLayout/AssociateSection";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Bannersection/>
       <CreativePlatfromSection/>
+      <AssociateSection/>
     </div>
   );
 }
