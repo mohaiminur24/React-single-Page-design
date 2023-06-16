@@ -42,6 +42,10 @@ const DiscoverSection = () => {
           </div>
         </div>
       </div>
+      <div className="flex w-11/12 mx-auto py-5 space-x-10 text-3xl justify-center border-b">
+        <h1>Popular:</h1>
+        <h2>Website Design Logo Design Brochure Label Design</h2>
+      </div>
     </div>
   );
 };

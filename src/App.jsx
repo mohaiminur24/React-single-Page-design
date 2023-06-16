@@ -4,6 +4,8 @@ import CreativePlatfromSection from "./SinglePageLayout/CreativePlatfromSection"
 import AssociateSection from "./SinglePageLayout/AssociateSection";
 import FeaturesSection from "./SinglePageLayout/FeaturesSection";
 import DiscoverSection from "./SinglePageLayout/DiscoverSection";
+import OurBlog from "./SinglePageLayout/OurBlog";
+import RealWeddingSection from "./SinglePageLayout/RealWeddingSection";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <AssociateSection/>
       <FeaturesSection/>
       <DiscoverSection/>
+      <OurBlog/>
+      <RealWeddingSection/>
     </div>
   );
 }
