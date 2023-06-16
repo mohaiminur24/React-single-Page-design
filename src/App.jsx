@@ -6,6 +6,7 @@ import FeaturesSection from "./SinglePageLayout/FeaturesSection";
 import DiscoverSection from "./SinglePageLayout/DiscoverSection";
 import OurBlog from "./SinglePageLayout/OurBlog";
 import RealWeddingSection from "./SinglePageLayout/RealWeddingSection";
+import Bestoffers from "./SinglePageLayout/Bestoffers";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <DiscoverSection/>
       <OurBlog/>
       <RealWeddingSection/>
+      <Bestoffers/>
     </div>
   );
 }
